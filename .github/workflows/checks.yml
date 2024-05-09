@@ -268,6 +268,8 @@ jobs:
             os: macos-10.15
           - xcode: ^13
             os: macos-12
+          - platform: iOS
+            os-version: ^16
           - platform: mac-catalyst
             xcode: ^13
             codecov: false
